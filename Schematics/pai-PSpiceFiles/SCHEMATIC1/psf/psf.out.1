@@ -1,0 +1,64 @@
+
+**** 11/20/23 23:15:18 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-psf"  [ C:\Users\UTILIZATOR\Desktop\Proiect - Copy\pai-pspicefiles\schematic1\psf.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "psf.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\UTILIZATOR\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 0.01 0 10meg
+--------$
+ERROR(ORPSIM-16151): Invalid integer
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PAI
+R_R5         N00780 0 1k
+V_V2         VCC 0 18V
+R_R2         0 N00957  15k TC=0,0 
+R_R3         0 N00629  1k TC=0,0 
+R_R9         N00780 N00776  1 TC=0,0 
+R_R4         N00694 VCC  15k TC=0,0 
+V_V3         N01436 0  AC 0.2
++SIN 0 0.2 1k 0 0 0
+C_C3         N01258 N00716  10u  TC=0,0 
+Q_Q1         N00793 N00637 N00629 BC846B 
+Q_Q2         N00694 N00793 N00776 BC846B 
+R_R15         0 N00957  100k TC=0,0 
+R_R16         0 N00957  100k TC=0,0 
+R_R18         N00793 N05631  100k TC=0,0 
+R_R19         N05631 VCC  100k TC=0,0 
+R_R8         N00629 N01258  220k TC=0,0 
+R_R1         N00957 N01436  1000k TC=0,0 
+C_C10         N00957 N00637  10uF  TC=0,0 
+C_C12         N01258 N00694  10uF  TC=0,0 
+C_C13         N01258 N00694  4.7uF  TC=0,0 
+R_R27         N00637 N10490 180k
+R_R28         N10490 N00780 180k
+C_C14         N00780 0  10uF  TC=0,0 
+C_C16         N00780 0  10uF  TC=0,0 
+X_R29         0 N00716 N00716 POT PARAMS: SET=0.5 VALUE=50k
+
+**** RESUMING psf.cir ****
+.END
+

@@ -1,0 +1,173 @@
+
+**** 11/20/23 21:38:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-timp"  [ C:\Users\UTILIZATOR\Desktop\Proiect - Copy\pai-pspicefiles\schematic1\timp.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "timp.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\UTILIZATOR\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0 0.001 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PAI
+R_R5         N00780 0 1k
+V_V2         VCC 0 18V
+R_R2         0 N00957  15k TC=0,0 
+R_R3         0 N00629  1k TC=0,0 
+R_R9         N00780 N00776  1 TC=0,0 
+R_R4         N00694 VCC  15k TC=0,0 
+V_V3         N01436 0  AC 0.2
++SIN 0 0.2 1k 0 0 0
+C_C3         N01258 N00716  10u  TC=0,0 
+Q_Q1         N00793 N00637 N00629 BC846B 
+Q_Q2         N00694 N00793 N00776 BC846B 
+R_R15         0 N00957  100k TC=0,0 
+R_R16         0 N00957  100k TC=0,0 
+R_R18         N00793 N05631  100k TC=0,0 
+R_R19         N05631 VCC  100k TC=0,0 
+R_R8         N00629 N01258  220k TC=0,0 
+R_R1         N00957 N01436  1000k TC=0,0 
+C_C10         N00957 N00637  4.7uF  TC=0,0 
+C_C11         N00957 N00637  4.7uF  TC=0,0 
+C_C12         N01258 N00694  10uF  TC=0,0 
+C_C13         N01258 N00694  4.7uF  TC=0,0 
+R_R27         N00637 N10490 180k
+R_R28         N10490 N00780 180k
+C_C14         N00780 0  4.7uF  TC=0,0 
+C_C9         N00780 0  4.7uF  TC=0,0 
+C_C15         N00780 0  4.7uF  TC=0,0 
+C_C16         N00780 0  4.7uF  TC=0,0 
+C_C17         N05631 0  4.7uF  TC=0,0 
+C_C18         N05631 0  4.7uF  TC=0,0 
+R_R29         N13819 N00716  10k TC=0,0 
+R_R30         0 N13819  15k TC=0,0 
+
+**** RESUMING timp.cir ****
+.END
+
+**** 11/20/23 21:38:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-timp"  [ C:\Users\UTILIZATOR\Desktop\Proiect - Copy\pai-pspicefiles\schematic1\timp.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BC846B          
+               NPN             
+       LEVEL    1            
+          IS    7.049000E-15 
+          BF  279.1          
+          NF    1            
+         VAF   62.37         
+         IKF     .2201       
+         ISE   59.160000E-15 
+          NE    1.81         
+          BR    3.816        
+          NR    1            
+         IKR    1.859        
+         ISC   16.170000E-15 
+          NC    2.394        
+          NK     .6305       
+         ISS    0            
+          RE    0            
+          RC    1.508        
+         CJE    9.485000E-12 
+         VJE     .5          
+         MJE     .3333       
+         CJC    7.287000E-12 
+         VJC     .5          
+         MJC     .3333       
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          TF  664.000000E-12 
+         XTF  147            
+         VTF   10            
+         ITF    4.664        
+          TR   10.000000E-09 
+         XTB    1.5          
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 11/20/23 21:38:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-timp"  [ C:\Users\UTILIZATOR\Desktop\Proiect - Copy\pai-pspicefiles\schematic1\timp.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VCC)   18.0000  (N00629)     .0804 (N00637)     .6789 (N00694)    6.2071     
+
+(N00716)    0.0000 (N00776)     .7894 (N00780)     .7886 (N00793)    1.4455     
+
+(N00957)    0.0000 (N01258)     .0804 (N01436)    0.0000 (N05631)    9.7228     
+
+(N10490)     .7338 (N13819)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -8.690E-04
+    V_V3         0.000E+00
+
+    TOTAL POWER DISSIPATION   1.56E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/20/23 21:38:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-timp"  [ C:\Users\UTILIZATOR\Desktop\Proiect - Copy\pai-pspicefiles\schematic1\timp.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .08
+

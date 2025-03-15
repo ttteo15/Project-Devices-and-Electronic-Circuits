@@ -1,0 +1,178 @@
+
+**** 11/24/24 16:31:36 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-simulare_frecv"  [ C:\Users\TEO\Desktop\P1_2024_431A_CatrinescuTeodora_PAI_nr24_Orcad\pai\pai-pspicefiles\sc
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "simulare_frecv.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 10 1 10000k
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PAI
+R_R8         N00780 0 1k
+V_V2         VCC 0 18V
+R_R2         0 N00957  15k TC=0,0 
+R_R5         0 N00629  1k TC=0,0 
+R_R13         N00780 N00776  1 TC=0,0 
+R_R18         N00694 VCC  15k TC=0,0 
+V_V3         N01436 0  AC 0.2
++SIN 0 0.2 1k 0 0 0
+C_C9         N01258 N00716  4.7u  TC=0,0 
+Q_Q1         N00793 N00637 N00629 BC846B 
+Q_Q2         N00694 N00793 N00776 BC846B 
+R_R4         0 N00957  100k TC=0,0 
+R_R3         0 N00957  100k TC=0,0 
+R_R14         N00793 N23425  47k TC=0,0 
+R_R15         N23425 N23442  47k TC=0,0 
+R_R1         N00957 N01436  1000k TC=0,0 
+C_C7         N01258 N00694  4.7u  TC=0,0 
+R_R6         N00637 N28542 330k
+R_R7         N28517 N00780 15k
+C_C5         N00780 0  10u  TC=0,0 
+X_POT         0 N00716 N00716 POT PARAMS: SET=0.5 VALUE=50k
+C_C1         N00957 N00637  4.7u  TC=0,0 
+C_C4         N00780 0  10u  TC=0,0 
+R_R9         N00629 N23289 100k
+R_R10         N23289 N23285 10k
+R_R12         N23281 N01258 10k
+R_R11         N23285 N23281 100k
+R_R16         N28809 N23442  47k TC=0,0 
+R_R17         N28834 N28809  47k TC=0,0 
+R_R19         N28542 N28517 15k
+R_R20         N28898 N28834  10k TC=0,0 
+R_R21         VCC N28898  2k TC=0,0 
+
+**** RESUMING simulare_frecv.cir ****
+.END
+
+**** 11/24/24 16:31:36 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-simulare_frecv"  [ C:\Users\TEO\Desktop\P1_2024_431A_CatrinescuTeodora_PAI_nr24_Orcad\pai\pai-pspicefiles\sc
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BC846B          
+               NPN             
+       LEVEL    1            
+          IS    7.049000E-15 
+          BF  279.1          
+          NF    1            
+         VAF   62.37         
+         IKF     .2201       
+         ISE   59.160000E-15 
+          NE    1.81         
+          BR    3.816        
+          NR    1            
+         IKR    1.859        
+         ISC   16.170000E-15 
+          NC    2.394        
+          NK     .6305       
+         ISS    0            
+          RE    0            
+          RC    1.508        
+         CJE    9.485000E-12 
+         VJE     .5          
+         MJE     .3333       
+         CJC    7.287000E-12 
+         VJC     .5          
+         MJC     .3333       
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          TF  664.000000E-12 
+         XTF  147            
+         VTF   10            
+         ITF    4.664        
+          TR   10.000000E-09 
+         XTB    1.5          
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 11/24/24 16:31:36 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-simulare_frecv"  [ C:\Users\TEO\Desktop\P1_2024_431A_CatrinescuTeodora_PAI_nr24_Orcad\pai\pai-pspicefiles\sc
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VCC)   18.0000  (N00629)     .0804 (N00637)     .6789 (N00694)    6.2071     
+
+(N00716)    0.0000 (N00776)     .7894 (N00780)     .7886 (N00793)    1.4455     
+
+(N00957)    0.0000 (N01258)     .0804 (N01436)    0.0000 (N23281)     .0804     
+
+(N23285)     .0804 (N23289)     .0804 (N23425)    5.3358 (N23442)    9.2261     
+
+(N28517)     .7840 (N28542)     .7795 (N28809)   13.1160 (N28834)   17.0070     
+
+(N28898)   17.8340 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -8.690E-04
+    V_V3         0.000E+00
+
+    TOTAL POWER DISSIPATION   1.56E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/24/24 16:31:36 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-simulare_frecv"  [ C:\Users\TEO\Desktop\P1_2024_431A_CatrinescuTeodora_PAI_nr24_Orcad\pai\pai-pspicefiles\sc
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+

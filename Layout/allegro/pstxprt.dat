@@ -1,0 +1,370 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Dec-21-2024 at 13:52:07 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='TEO_PCB';
+ POST_TIME='Jul 30 2017 03:29:02';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_CAPC2008X126N_0805_4.7U':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37403@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37403@analog.\c.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37403@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_CAPAE660X770N_10U':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37797@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37797@analog.\c.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37797@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C_CAPAE660X770N_10U':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37813@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37813@analog.\c.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37813@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C_CAPC2008X126N_0805_4.7U':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37117@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37117@analog.\c.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37117@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'C_CAPC2008X126N_0805_4.7U':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37133@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37133@analog.\c.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37133@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ IN 'CON2_SMR2512_CON2':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37745@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37745@connector.\con2.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37745@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON1_TP100_CON1':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37329@CONNECTOR.CON1.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37329@connector.\con1.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37329@connector.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON1_TP100_CON1':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37255@CONNECTOR.CON1.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37255@connector.\con1.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37255@connector.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'CON1_TP100_CON1':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37191@CONNECTOR.CON1.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37191@connector.\con1.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37191@connector.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CON2_SMR2512_CON2':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37695@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37695@connector.\con2.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37695@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ OUT 'CON2_SMR2512_CON2':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37357@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37357@connector.\con2.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37357@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ POT 'POT_TS53YL_50K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37483@BREAKOUT.POT.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37483@breakout.\pot.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37483@breakout.\pot.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'BC846B_TO236_BC846B':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37269@EBIPOLAR.BC846B.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37269@ebipolar.\bc846b.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37269@ebipolar.\bc846b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q2 'BC846B_TO236_BC846B':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37209@EBIPOLAR.BC846B.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37209@ebipolar.\bc846b.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37209@ebipolar.\bc846b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RES2012X50N_0805_1000K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37381@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37381@analog.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37381@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R_RES2012X50N_0805_10K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37913@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37913@discrete.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37913@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_RES2012X50N_0805_100K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37935@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37935@discrete.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37935@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_RES2012X50N_0805_10K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37955@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37955@discrete.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37955@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'R_RES2012X50N_0805_1':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37309@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37309@analog.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37309@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'R_RES2012X50N_0805_47K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37093@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37093@analog.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37093@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'R_RES2012X50N_0805_47K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37035@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37035@analog.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37035@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'R_RES2012X50N_0805_47K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS36889@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins36889@analog.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins36889@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R17 'R_RES2012X50N_0805_47K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS36911@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins36911@analog.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins36911@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R18 'R_RES2012X50N_0805_15K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37063@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37063@analog.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37063@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R19 'R_RES2012X50N_0805_15K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37439@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37439@discrete.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37439@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RES2012X50N_0805_15K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37711@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37711@analog.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37711@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R20 'R_RES2012X50N_0805_10K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS36933@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins36933@analog.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins36933@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R21 'R_RES2012X50N_0805_2K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS36955@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins36955@analog.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins36955@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_RES2012X50N_0805_100K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37651@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37651@analog.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37651@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_RES2012X50N_0805_100K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37671@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37671@analog.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37671@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_RES2012X50N_0805_1K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37773@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37773@analog.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37773@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_RES2012X50N_0805_330K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37419@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37419@discrete.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37419@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_RES2012X50N_0805_15K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37459@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37459@discrete.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37459@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_RES2012X50N_0805_1K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37599@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37599@discrete.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37599@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_RES2012X50N_0805_100K':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS37893@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins37893@discrete.\r.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins37893@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ VCC 'CON2_SMR2512_CON2':;
+
+SECTION_NUMBER 1
+ '@TEO_PCB.SCHEMATIC1(SCH_1):INS36977@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@teo_pcb.schematic1(sch_1):ins36977@connector.\con2.normal\(chips)',
+ P_PATH='@teo_pcb.schematic1(sch_1):page1_ins36977@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

@@ -1,0 +1,31 @@
+G04 ================== begin FILE IDENTIFICATION RECORD ==================*
+G04 Layout Name:  TEO_PCB.brd*
+G04 Film Name:    SMBOT*
+G04 File Format:  Gerber RS274X*
+G04 File Origin:  Cadence Allegro 17.2-S025*
+G04 Origin Date:  Mon Dec 30 22:13:27 2024*
+G04 *
+G04 Layer:  VIA CLASS/SOLDERMASK_BOTTOM*
+G04 Layer:  PIN/SOLDERMASK_BOTTOM*
+G04 Layer:  DRC ERROR CLASS/SOLDERMASK_BOTTOM*
+G04 *
+G04 Offset:    (0.0000 0.0000)*
+G04 Mirror:    No*
+G04 Mode:      Positive*
+G04 Rotation:  0*
+G04 FullContactRelief:  No*
+G04 UndefLineWidth:     0.0000*
+G04 ================== end FILE IDENTIFICATION RECORD ====================*
+%FSLAX25Y25*MOIN*%
+%IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+%ADD10C,.044*%
+%LPD*%
+G75*
+G54D10*
+X28740Y68898D03*
+X39764Y115354D03*
+X22441Y131102D03*
+X75197Y114173D03*
+X56299Y113386D03*
+X57480Y128346D03*
+M02*
